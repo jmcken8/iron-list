@@ -832,10 +832,6 @@ Polymer$0({
       }
       this._update(
           reusables.indexes, isScrollingDown ? null : reusables.indexes);
-      this._debounce(
-          '_increasePoolIfNeeded',
-          this._increasePoolIfNeeded.bind(this, 0),
-          MICRO_TASK);
     }
   },
 
